@@ -24,7 +24,7 @@
         "id": "070e02cec3ef11d1",
         "type": "inject",
         "z": "3af82246.3634ae",
-        "name": "",
+        "name": "Go!",
         "props": [
             {
                 "p": "payload"
@@ -41,7 +41,7 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 220,
+        "x": 130,
         "y": 260,
         "wires": [
             [
@@ -53,15 +53,15 @@
         "id": "c0228b65cf968b22",
         "type": "function",
         "z": "3af82246.3634ae",
-        "name": "function 1",
+        "name": "Set Value",
         "func": "msg.payload = 231231;\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 240,
-        "y": 140,
+        "x": 300,
+        "y": 260,
         "wires": [
             [
                 "2e025af9faa05996"
@@ -72,16 +72,17 @@
         "id": "2e025af9faa05996",
         "type": "debug",
         "z": "3af82246.3634ae",
-        "name": "debug 1",
+        "name": "Result",
         "active": true,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
-        "complete": "false",
+        "complete": "payload",
+        "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 260,
-        "y": 60,
+        "x": 450,
+        "y": 260,
         "wires": []
     },
     {
@@ -90,8 +91,8 @@
         "z": "3af82246.3634ae",
         "name": "",
         "info": "",
-        "x": 380,
-        "y": 180,
+        "x": 80,
+        "y": 40,
         "wires": []
     },
     {
