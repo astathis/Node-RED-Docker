@@ -4,7 +4,7 @@ Template project for running Node-RED in Docker
 
 The code in this repository is to provide a starting project for Node-RED, where the aim is to run in a production, cloud based environment.  There have been a few modifications over the standard Node-RED released code.
 
-## How to use this project
+## How to use this project 
 
 1. using a standard install of Node-RED with the [projects](https://nodered.org/docs/user-guide/projects/) feature enabled, clone a fork of this repository
 2. develop your Node-RED application
