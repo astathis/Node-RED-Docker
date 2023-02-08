@@ -41,8 +41,8 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 130,
-        "y": 260,
+        "x": 170,
+        "y": 140,
         "wires": [
             [
                 "c0228b65cf968b22"
@@ -60,7 +60,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 300,
+        "x": 200,
         "y": 260,
         "wires": [
             [
@@ -81,8 +81,8 @@
         "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 450,
-        "y": 260,
+        "x": 390,
+        "y": 180,
         "wires": []
     },
     {
