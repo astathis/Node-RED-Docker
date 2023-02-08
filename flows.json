@@ -156,7 +156,7 @@
         "type": "function",
         "z": "c09afa4bd9fb5d11",
         "name": "test",
-        "func": "msg.payload = 8;\n\nreturn msg;",
+        "func": "msg.payload = 5;\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
