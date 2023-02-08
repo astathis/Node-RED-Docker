@@ -2,14 +2,14 @@
     {
         "id": "3af82246.3634ae",
         "type": "tab",
-        "label": "TEST 000",
+        "label": "TEST ver. 1.0.0",
         "disabled": false,
         "info": ""
     },
     {
         "id": "c09afa4bd9fb5d11",
         "type": "tab",
-        "label": "Test AAA",
+        "label": "Dummy Test",
         "disabled": false,
         "info": "",
         "env": []
@@ -119,7 +119,7 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 430,
-        "y": 140,
+        "y": 120,
         "wires": []
     },
     {
@@ -143,7 +143,7 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 160,
+        "x": 120,
         "y": 120,
         "wires": [
             [
@@ -162,8 +162,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 310,
-        "y": 80,
+        "x": 270,
+        "y": 120,
         "wires": [
             [
                 "3ec7925369a22f80"
