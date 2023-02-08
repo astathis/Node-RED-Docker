@@ -54,7 +54,7 @@
         "type": "function",
         "z": "3af82246.3634ae",
         "name": "function 1",
-        "func": "msg.payload = 7;\nreturn msg;",
+        "func": "msg.payload = 231231;\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
